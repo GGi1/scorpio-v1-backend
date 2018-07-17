@@ -1,0 +1,2 @@
+class ExclusiveVinylsController < ApplicationController
+end

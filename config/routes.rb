@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :exclusive_vinyls
+  resources :exclusives
   resources :vinyls, defaults: {format: :json}
   resources :users, defaults: {format: :json}
   post 'user_token' => 'user_token#create'

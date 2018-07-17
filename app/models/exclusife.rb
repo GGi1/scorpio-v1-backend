@@ -1,0 +1,2 @@
+class Exclusife < ApplicationRecord
+end

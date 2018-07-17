@@ -10,4 +10,5 @@
 User.create(email: 'mike@test.com', password: 'test', password_confirmation: 'test')
 
 
-Vinyl.create(artist: 'BABY HUEY', title: 'THE LIVING LEGEND - THE BABY HUEY STORY', price: 10.5, label: 'CRTM', labelnum: '8007', pic: 'babyhuey')
+Vinyl.create(artist: 'BABY HUEY', title: 'THE LIVING LEGEND - THE BABY HUEY STORY', price: 10.5, label: 'CRTM', labelnum: '8007', pic: 'babyhueylivinglegend.jpg')
+Vinyl.create(artist: 'BOB MARLEY & THE WAILERS', title: 'KAYA', price: 12.5, label: 'TUFF', labelnum: '4727626H', pic: 'marley-kaya.jpg')
