@@ -17,12 +17,13 @@ csv.each do |row|
   t.label= row['label']
   t.labelnum = row['labelnum']
   t.save
-  puts "#{t.artist}, #{t.title} saved"
+#   puts "#{t.artist}, #{t.title} saved"
 end
 
 
 
 User.create(email: 'mike@test.com', password: 'test', password_confirmation: 'test')
+User.create(email: 'john@scorpio.com', password: 'test', password_confirmation: 'test')
 
 
 # Vinyl.create(artist: 'BABY HUEY', title: 'THE LIVING LEGEND - THE BABY HUEY STORY', price: 10.5, label: 'CRTM', labelnum: '8007', pic: 'babyhueylivinglegend.jpg')
