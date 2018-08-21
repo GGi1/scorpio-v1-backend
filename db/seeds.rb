@@ -17,6 +17,7 @@ csv.each do |row|
   t.price = row['price']
   t.label= row['label']
   t.labelnum = row['labelnum']
+  t.quantity = row['quantity']
   t.save
 #   puts "#{t.artist}, #{t.title} saved"
 end
