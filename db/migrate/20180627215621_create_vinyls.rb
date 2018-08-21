@@ -6,7 +6,7 @@ class CreateVinyls < ActiveRecord::Migration[5.2]
       t.decimal :price
       t.string :label
       t.string :labelnum
-      t.integer :quantity
+      t.string :quantity
       t.string :pic
     
       t.timestamps
