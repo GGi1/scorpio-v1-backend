@@ -8,7 +8,8 @@
 require 'csv'
 
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'vinyl.csv'))
-csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+# csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+csv = CSV.parse(csv_text.scrub, headers: true)
 csv.each do |row|
   t = Vinyl.new
   t.artist = row['artist']
